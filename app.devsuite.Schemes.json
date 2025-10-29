@@ -1,7 +1,7 @@
 {
     "app-id" : "app.devsuite.Schemes",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "schemes",
     "finish-args" : [
@@ -32,8 +32,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/libpanel/1.6/libpanel-1.6.0.tar.xz",
-                    "sha256" : "b773494a3c69300345cd8e27027448d1189183026cc137802f886417c6ea30b6",
+                    "url" : "https://download.gnome.org/sources/libpanel/1.10/libpanel-1.10.3.tar.xz",
+                    "sha256" : "42a01baf8b94440f194ea8342b244bd6992dfb024ca3160c9477ff498ec3a2b6",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "libpanel",
