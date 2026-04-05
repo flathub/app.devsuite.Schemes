@@ -1,7 +1,7 @@
 {
     "app-id": "app.devsuite.Schemes",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "schemes",
     "finish-args": [
@@ -12,13 +12,7 @@
     ],
     "cleanup": [
         "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gir-1.0",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig"
+        "/lib/pkgconfig"
     ],
     "modules": [
         {
@@ -52,6 +46,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/chergert/schemes.git",
+                    "tag": "46.0",
                     "commit": "a3971b955e22395d404e9b5aaee046d4dab251a0"
                 }
             ]
